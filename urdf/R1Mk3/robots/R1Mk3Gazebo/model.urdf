@@ -2414,6 +2414,7 @@
   <gazebo>
     <plugin name="controlboard_head" filename="libgazebo_yarp_controlboard.so">
       <yarpConfigurationFile>model://R1Mk3/conf/gazebo_cer_head.ini</yarpConfigurationFile>
+      <initialConfiguration>-0.4 0.0</initialConfiguration>
     </plugin>
   </gazebo>
   <gazebo>
@@ -2424,7 +2425,7 @@
   <gazebo>
     <plugin name="controlboard_left_arm_no_hand" filename="libgazebo_yarp_controlboard.so">
       <yarpConfigurationFile>model://R1Mk3/conf/gazebo_cer_left_arm.ini</yarpConfigurationFile>
-      <initialConfiguration>-0.52 0.52 0 0.785 0 0 0.0</initialConfiguration>
+      <initialConfiguration>-1.02 0.52 0 0.785 0 0 0.0</initialConfiguration>
     </plugin>
   </gazebo>
   <gazebo>
@@ -2472,7 +2473,7 @@
   <gazebo>
     <plugin name="controlboard_right_arm" filename="libgazebo_yarp_controlboard.so">
       <yarpConfigurationFile>model://R1Mk3/conf/gazebo_cer_right_arm.ini</yarpConfigurationFile>
-      <initialConfiguration>-0.52 0.52 0 0.785 0 0 0.0</initialConfiguration>
+      <initialConfiguration>-1.02 0.52 0 0.785 0 0 0.0</initialConfiguration>
     </plugin>
   </gazebo>
   <gazebo>
